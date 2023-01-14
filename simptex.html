@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="simptex.css" />
+    </head>
+    <body>
+        <h2>SimpTeX</h2>
+        <textarea name="input" id="input" rows="4" cols="30" spellcheck="false" autofocus></textarea>
+        <br />
+        <label for="size">Font Size: </label>
+        <select id="size" name="size" class="break">
+            <option value="tiny">Tiny</option>
+            <option value="small">Small</option>
+            <option value="medium" selected>Medium</option>
+            <option value="large">Large</option>
+            <option value="xlarge">X-Large</option><!--LARGE-->
+            <option value="huge">Huge</option>
+        </select>
+        <br />
+        <label for="bg">Background: </label>
+        <select id="bg" name="bg" class="break">
+            <option value="transparent" selected>Transparent</option>
+            <option value="white">White</option>
+            <option value="black">Black</option>
+        </select>
+        <br />
+        <button id="generate" class="break">Generate Image</button>
+        <br />
+        <img id="eq" src="data:," alt>
+        <p>
+            Right click the image to either "Copy Image" or "Save Image As"
+        </p>
+        <p>
+            Images created by <a href="https://latex.codecogs.com/" target="_blank">CodeCogs</a>
+            <br />
+            Source code available on <a href="https://github.com/slashinfty/simptex" target="_blank">GitHub</a>
+        </p>
+        <script src="simptex.js"></script>
+    </body>
+</html>

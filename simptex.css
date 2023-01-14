@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    width: 375px;
+}
+
+body, select, button {
+    font-family: 'Roboto Slab', serif;
+}
+
+textarea {
+    font-family: monospace;
+    margin-bottom: 1.5em;
+}
+
+.break {
+    margin-bottom: 0.75em;
+}
+
+#eq {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
